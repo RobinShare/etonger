@@ -67,6 +67,8 @@ tree ~/.config/etonger
    
        ```bash
        pip install etonger
+       
+       pip3 install -i https://test.pypi.org/simple/ etonger==1.1.1
        ```
 
    - Building `etonger` from source
