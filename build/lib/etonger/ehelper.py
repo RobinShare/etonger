@@ -199,37 +199,38 @@ class Logging(logging.Logger):
         self.addHandler(fh)
 
 if __name__ == "__main__":
-    # --- Config
-    config = Config()
-    print(config.config)
-    print(config.userid)
+    pass
+#     # --- Config
+#     config = Config()
+#     print(config.config)
+#     print(config.userid)
 
-    # --- MConfig
-    config = MConfig()
-    print(config.config)
-    print(config.mail_sender)
+#     # --- MConfig
+#     config = MConfig()
+#     print(config.config)
+#     print(config.mail_sender)
 
-    # --- Msg
-    msg = Msg()
-    mail = Mail(msg)
+#     # --- Msg
+#     msg = Msg()
+#     mail = Mail(msg)
 
-    # --- Logging
-    lg = Logging(logType='prod_env')
-    lg.info("this is a info")
-    lg.debug("this is a debug")
-    lg.warning("this is a warning")
-    lg.error("this is a error")
-    lg.critical('this is a critical')
+#     # --- Logging
+#     lg = Logging(logType='prod_env')
+#     lg.info("this is a info")
+#     lg.debug("this is a debug")
+#     lg.warning("this is a warning")
+#     lg.error("this is a error")
+#     lg.critical('this is a critical')
 
-    lg = Logging(logType='simu_env')
-    lg.info("this is a info")
-    lg.debug("this is a debug")
-    lg.warning("this is a warning")
-    lg.error("this is a error")
-    lg.critical('this is a critical')
+#     lg = Logging(logType='simu_env')
+#     lg.info("this is a info")
+#     lg.debug("this is a debug")
+#     lg.warning("this is a warning")
+#     lg.error("this is a error")
+#     lg.critical('this is a critical')
 
-    # --- Tlog
-    tlog = Tlog(action='entrust buy', assetsName='stock', assetsCode='000000', price='45.93', amount='1000', status='successed', comments='')
-    mail = Mail(tlog)
-    print(tlog)
+#     # --- Tlog
+#     tlog = Tlog(action='entrust buy', assetsName='stock', assetsCode='000000', price='45.93', amount='1000', status='successed', comments='')
+#     mail = Mail(tlog)
+#     print(tlog)
 

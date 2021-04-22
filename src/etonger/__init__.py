@@ -1,1 +1,1 @@
-from . import eTonger, eTongHelper
+from . import etonger

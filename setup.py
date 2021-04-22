@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="etonger",
-    version="1.1.1",
+    version="1.1.8",
     author="RobinShare",
     author_email="robinshare@foxmail.com",
     description="trading api",

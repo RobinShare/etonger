@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 # file: eTonger.py
 
-
 import abc, os, sys, json, time
 import pandas
-import ascmd
-import ehelper
+from . import ascmd
+from . import ehelper
 import locale
 # 解决编码问题
 locale.setlocale(locale.LC_ALL, 'zh_CN.UTF-8')
@@ -307,11 +306,9 @@ class Etonger(Base):
         self.__keepInformed = False                             # mail me
         self.__lock = Lock()
 
-
     @property
     def keepInformed(self):
         return self.__keepInformed
-
 
     @keepInformed.setter
     def keepInformed(self, val = True):
@@ -1042,8 +1039,8 @@ class Etonger(Base):
         
 
 
-
-def main():
+if __name__ == "__main__":
+    pass
     # --- Service
     # -----------------------------------------
     # service = Service()
@@ -1140,7 +1137,3 @@ def main():
     # print(status)
 
     
-
-
-if __name__ == "__main__":
-    main()
