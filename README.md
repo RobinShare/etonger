@@ -42,10 +42,13 @@ etonger/
     │        ├── ehelper.py             
     │        └── etonger.py
     └── tests/
+          └── etongerDemo.py
 
 tree ~/.config/etonger
-    ~/.config/etonger
-    └── config.xml
+
+     ~/.config/
+          └── etonger/     
+                └── config.xml
 ```
 
 ## Installation guide
@@ -59,7 +62,7 @@ tree ~/.config/etonger
     cliclick -V             # cliclick 4.0.1, 2018-04-10
     which cliclick          # /usr/local/bin/cliclick
 
-    pip install pandas==1.2.4
+    pip3 install pandas==1.2.4
     ```
 
 3. Installation
@@ -67,8 +70,6 @@ tree ~/.config/etonger
    
        ```bash
        pip3 install etonger
-       
-       #pip3 install -i https://test.pypi.org/simple/ etonger==1.1.8
        ```
 
    - Building `etonger` from source
