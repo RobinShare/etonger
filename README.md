@@ -222,3 +222,6 @@ if __name__ == "__main__":
     - If you want to use the email notification module, you need to open a 163 email account.
     - Be Careful【手动要求】：
        - 客户端手动提前设置：双向委托[F6]---->>>>委托(R),勾选☑️可撤委托,同时向右拖动该窗口，让委托信息中全部列名可见。【注意：版式切换不要变更，使用原来的版式<上>】
+
+## Donate捐赠
+![](donate.jpg)
